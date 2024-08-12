@@ -50,7 +50,7 @@ const Footer = () => {
                 alt="Bhatiya Sports Logo"
                 className="max-w-[50px]"
               />
-              Bhatiya Sports
+              BHATIYA SPORTS
             </h1>
             <p>
               At Bhatiya Sports, we are dedicated to providing top-quality
@@ -114,7 +114,8 @@ const Footer = () => {
                 <div className="flex items-center gap-3">
                   <FaLocationArrow />
                   <p>
-                    57, Nazirabad Rd, Khayali Ganj, Qaisar Bagh, Lucknow, Uttar Pradesh 226018
+                    57, Nazirabad Rd, Khayali Ganj, Qaisar Bagh, Lucknow, Uttar
+                    Pradesh 226018
                   </p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
@@ -128,14 +129,21 @@ const Footer = () => {
 
         {/* Developed By Section */}
       </div>
-        <div className="text-center py-4 border-t border-gray-600">
-          <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} Bhatiya Sports. All Rights Reserved.
-          </p>
-          <p className="text-gray-400">
-            Developed by <a target="blank" href="https://codeservir.com" className="text-primary hover:underline">codeservir.com</a>
-          </p>
-        </div>
+      <div className="text-center py-4 border-t border-gray-600">
+        <p className="text-gray-400">
+          &copy; {new Date().getFullYear()} Bhatiya Sports. All Rights Reserved.
+        </p>
+        <p className="text-gray-400">
+          Developed by{" "}
+          <a
+            target="blank"
+            href="https://codeservir.com"
+            className="text-primary hover:underline"
+          >
+            codeservir.com
+          </a>
+        </p>
+      </div>
     </div>
   );
 };
