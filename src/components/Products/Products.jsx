@@ -48,7 +48,6 @@ const ProductsData = [
   },
 ];
 
-
 const Products = () => {
   return (
     <div className="mt-14 mb-12">
@@ -58,13 +57,15 @@ const Products = () => {
           <p data-aos="fade-up" className="text-sm text-primary">
             Top Selling Products for you
           </p>
-          <h1 data-aos="fade-up" className="text-3xl font-bold">
+          <h1 id="products" data-aos="fade-up" className="text-3xl font-bold">
             Products
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-  Discover top-quality sports gear and accessories that enhance your performance and keep you comfortable. From high-performance running shoes to durable sports jackets, we have everything you need to excel in your favorite activities.
-</p>
-
+            Discover top-quality sports gear and accessories that enhance your
+            performance and keep you comfortable. From high-performance running
+            shoes to durable sports jackets, we have everything you need to
+            excel in your favorite activities.
+          </p>
         </div>
         {/* Body section */}
         <div>

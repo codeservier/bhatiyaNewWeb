@@ -1,9 +1,7 @@
 import React from "react";
-import Image1 from "../../assets/hero/women.png";
-import Image2 from "../../assets/hero/shopping.png";
 import Image3 from "../../assets/hero/sale.png";
-import Image4 from "../../assets/hero/foothbalth.png";
-import Image5 from "../../assets/hero/cricket.jpg";
+import Image1 from "../../assets/hero/foothbalth.png";
+import Image2 from "../../assets/hero/cricket.png";
 import Slider from "react-slick";
 
 const ImageList = [
@@ -16,7 +14,7 @@ const ImageList = [
   },
   {
     id: 2,
-    img: Image5,  // Ensure Image2 is the correct import for the sports shop image
+    img: Image2,  // Ensure Image2 is the correct import for the sports shop image
     title: "30% Off on All Cricket Things",
     description:
       "Hit the track with confidence. Enjoy 30% off on a wide selection of running shoes. Perfect for runners of all levels.",
@@ -46,7 +44,7 @@ const Hero = ({ handleOrderPopup }) => {
   };
 
   return (
-    <div className="relative overflow-hidden min-h-[550px] sm:min-h-[650px]  flex justify-center items-center dark:bg-gray-950 dark:text-white duration-200 ">
+    <div className="relative overflow-hidden min-h-[550px] sm:min-h-[650px] bg-primary/30 flex justify-center items-center dark:bg-gray-950 dark:text-white duration-200 ">
       {/* background pattern */}
       <div className="h-[700px] w-[700px] absolute -top-1/2 right-0 rounded-3xl rotate-45 -z[8]"></div>
       {/* hero section */}

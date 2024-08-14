@@ -20,8 +20,8 @@ const Banner = () => {
 
           {/* text details section */}
           <div className="flex flex-col justify-center gap-6 sm:pt-0">
-            <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold">
-              Winter Sale upto 50% Off
+            <h1 id="summercontact" data-aos="fade-up" className="text-3xl sm:text-4xl font-bold">
+              Summer Sale upto 20% Off
             </h1>
             <p
               data-aos="fade-up"

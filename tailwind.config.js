@@ -4,6 +4,9 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
+      scrollBehavior: {
+        smooth: 'smooth',
+      },
       colors: {
         primary: "#fea928",
         // primary: "#615EFC",

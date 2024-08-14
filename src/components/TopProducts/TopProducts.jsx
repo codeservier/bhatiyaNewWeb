@@ -38,8 +38,8 @@ const TopProducts = ({ handleOrderPopup }) => {
           <p data-aos="fade-up" className="text-sm text-primary">
             Top Rated Products for you
           </p>
-          <h1 data-aos="fade-up" className="text-3xl font-bold">
-            Top Sports Gear
+          <h1 id="garments" data-aos="fade-up" className="text-3xl font-bold">
+            Sports Garments
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
             Explore our premium collection of cricket and hockey equipment

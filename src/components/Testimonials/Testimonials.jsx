@@ -74,7 +74,7 @@ const Testimonials = () => {
           <p data-aos="fade-up" className="text-sm text-primary">
             What Our Customers Are Saying
           </p>
-          <h1 data-aos="fade-up" className="text-3xl font-bold">
+          <h1 id="testimonials" data-aos="fade-up" className="text-3xl font-bold">
             Customer Testimonials
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
