@@ -44,7 +44,7 @@ const Hero = ({ handleOrderPopup }) => {
   };
 
   return (
-    <div className="relative overflow-hidden h-screen  bg-primary/30 flex justify-center items-center dark:bg-gray-950 dark:text-white duration-200 ">
+    <div className="relative overflow-hidden h-screen  bg-white flex justify-center items-center dark:bg-gray-950 dark:text-white duration-200 ">
       {/* background pattern */}
       {/* hero section */}
       <div className="container pb-8 sm:pb-0">
