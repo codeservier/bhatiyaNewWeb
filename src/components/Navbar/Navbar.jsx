@@ -27,7 +27,7 @@ const Navbar = ({ handleOrderPopup }) => {
               className="font-bold text-2xl sm:text-2xl flex gap-2 items-center"
             >
               <LogoSvg />
-              BHATIYA SPORTS
+              BHATIA SPORTS
             </a>
           </div>
 
