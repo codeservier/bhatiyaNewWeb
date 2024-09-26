@@ -17,9 +17,9 @@ const Navbar = ({ handleOrderPopup }) => {
   const closeMenu = () => setIsMenuOpen(false);
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 shadow-md bg-white dark:bg-gray-900 dark:text-white">
+    <div className="fixed top-0 left-0 right-0 z-50  bg-white dark:bg-gray-900 dark:text-white">
       {/* upper Navbar */}
-      <div className="bg-primary/40 py-2">
+      <div className="bg-primary/30 py-2">
         <div className="flex justify-between items-center px-4 sm:px-6">
           <div>
             <a
